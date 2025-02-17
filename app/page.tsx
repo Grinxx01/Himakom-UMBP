@@ -3,12 +3,14 @@
 import Navbar from '@/components/Navbar'
 import Main from '@/components/Main'
 import ProfileSection from '@/components/ProfileSection';
+import Footer from '@/components/Footer';
 function Home() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <Main/>
-      <ProfileSection />
+      <ProfileSection/>
+      <Footer/>
     </>
   )
 }
