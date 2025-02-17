@@ -21,16 +21,16 @@ const Navbar = () => {
             </div>
             <div className="absolute left-0 mt-2 w-40 bg-[#444242] rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
               <Link
-                href="/struktur"
+                href="/pages/organisasi"
                 className="block px-4 py-2 hover:bg-[#585555]"
               >
-                Struktur
+                Program
               </Link>
               <Link
                 href="/program"
                 className="block px-4 py-2 hover:bg-[#585555]"
               >
-                Program
+                Struktur
               </Link>
             </div>
           </div>

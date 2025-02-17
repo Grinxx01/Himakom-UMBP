@@ -14,7 +14,7 @@ const images = [
 export default function ProfileSection() {
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between gap-x-10  text-white px-12 pr-0 py-10">
+    <div className="flex flex-col md:flex-row items-center justify-between gap-x-10  text-white px-12 pr-0 pb-10 pt-0">
       <div className="md:w-[50%]">
         <h2 className="text-4xl font-bold text-yellow-400">Profile Himakom</h2>
         <p className="mt-2 text-gray-300">
