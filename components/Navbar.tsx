@@ -1,12 +1,10 @@
-"use client";
-
 import Link from "next/link";
 import { Instagram } from "lucide-react";
 import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <header className="px-12 pt-4 fixed top-0 left-0 right-0">
+    <header className="px-12 pt-4 fixed top-0 left-0 right-0 z-50">
       <div className="bg-[#383636] text-white px-8 py-4 flex justify-between items-center rounded-lg">
         <div className="flex items-center gap-4">
           <Image src="/images/logoHimakom.png" alt="Logo" width={40} height={40} className="w-10 h-10" />
