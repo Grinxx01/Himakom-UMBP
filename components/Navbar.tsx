@@ -35,7 +35,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <Link href="/galeri" className="hover:text-yellow-400">
+          <Link href="/pages/galeri" className="hover:text-yellow-400">
             Galeri
           </Link>
         </nav>
