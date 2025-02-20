@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "HIMAKOM",
   description: "Created by Afdhal Wahid Hamsah & Muh. Ardiansyah",
+  icons: {
+    icon: "/favicon.png", // Bisa juga "/favicon.png" atau "/favicon.svg"
+  },
 };
 
 export default function RootLayout({
